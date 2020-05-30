@@ -8,7 +8,7 @@ class Student
     private string $name;
     private \DateTimeInterface $birthDate;
 
-    public function __construct(?int $id, string $name, \DateTimeInterface $birthDate)
+    public function __construct(?int $id, string $name,  $birthDate)
     {
         $this->id = $id;
         $this->name = $name;
